@@ -25,18 +25,17 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Customize the heading with red color
+st.title('SQL Practice Notes')
 st.markdown(
     """
     <style>
     h1 {
-        color: red;
+        color: green;
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 # Author information
 st.write("Author: Siddharth Patondikar")
 
