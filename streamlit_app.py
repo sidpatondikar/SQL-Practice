@@ -169,3 +169,9 @@ st.markdown(
     # Example:
     SELECT customers.customer_name, orders.order_id
     FROM customers
+    LEFT JOIN orders ON customers.customer_id = orders.customer_id;
+    <p>In this query, all customers are listed, and their orders are included if they have any. If a customer has no orders, null values will be shown for the order_id.</p>
+    """,
+    unsafe_allow_html=True,
+)
+
